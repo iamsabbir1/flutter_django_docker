@@ -1,0 +1,19 @@
+# Core dependencies
+Django==4.2
+djangorestframework==3.14.0
+
+# Database (if using PostgreSQL or MySQL)
+psycopg2-binary==2.9.8  # For PostgreSQL
+# mysqlclient==2.1.1     # Uncomment if using MySQL
+
+# CORS headers
+django-cors-headers==4.0.0
+
+# Gunicorn (for running Django in production with Docker)
+gunicorn==20.1.0
+
+# Optional: If you plan to use environment variables
+python-decouple==3.8
+
+# Optional: If you use static file management
+whitenoise==6.5.0
